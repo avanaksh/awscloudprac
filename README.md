@@ -30,7 +30,7 @@ awscloudprac/
 
 ---
 
-## 🛠️ Components & Architecture
+## 🛠️ Components and Architecture
 
 ### 1. `MyWebAPIApp` (ASP.NET Core Web API)
 - **Target Framework**: .NET 8.0 (`net8.0`)
@@ -119,7 +119,7 @@ Using the `dotnet-lambda` CLI tool:
 
 ---
 
-## 🔒 Configuration & Security
+## 🔒 Configuration and Security
 
 - Do not commit AWS credentials (`AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`) or production configuration files.
 - Use IAM Roles or AWS CLI profiles (`~/.aws/credentials`) for authentication in development and deployment.
